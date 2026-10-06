@@ -1,0 +1,434 @@
+[
+  {
+    "job": "firepoison",
+    "name": "아크메이지(불,독)",
+    "file": "firepoison.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/13",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char13.jpg",
+    "bytes": 168733,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "darkknight",
+    "name": "다크나이트",
+    "file": "darkknight.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/3",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char3.jpg",
+    "bytes": 239446,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "paladin",
+    "name": "팔라딘",
+    "file": "paladin.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/2",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char2.jpg",
+    "bytes": 206389,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "hero",
+    "name": "히어로",
+    "file": "hero.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/1",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char1.jpg",
+    "bytes": 203628,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "bishop",
+    "name": "비숍",
+    "file": "bishop.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/15",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char15.jpg",
+    "bytes": 135112,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "marksman",
+    "name": "신궁",
+    "file": "marksman.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/24",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char24.jpg",
+    "bytes": 160011,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "bowmaster",
+    "name": "보우마스터",
+    "file": "bowmaster.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/23",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char23.jpg",
+    "bytes": 131624,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "icelightning",
+    "name": "아크메이지(썬,콜)",
+    "file": "icelightning.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/14",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char14.jpg",
+    "bytes": 147205,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "nightlord",
+    "name": "나이트로드",
+    "file": "nightlord.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/30",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char30.jpg",
+    "bytes": 121098,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "shadower",
+    "name": "섀도어",
+    "file": "shadower.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/31",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char31.jpg",
+    "bytes": 87561,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "dualblade",
+    "name": "듀얼블레이드",
+    "file": "dualblade.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/32",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char32.jpg",
+    "bytes": 129541,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "pathfinder",
+    "name": "패스파인더",
+    "file": "pathfinder.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/25",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char25.jpg",
+    "bytes": 125411,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "viper",
+    "name": "바이퍼",
+    "file": "viper.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/39",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char39.jpg",
+    "bytes": 157116,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "captain",
+    "name": "캡틴",
+    "file": "captain.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/40",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char40.jpg",
+    "bytes": 147443,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "cannoneer",
+    "name": "캐논슈터",
+    "file": "cannoneer.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/41",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char41.jpg",
+    "bytes": 116223,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "dawnwarrior",
+    "name": "소울마스터",
+    "file": "dawnwarrior.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/4",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char4.jpg",
+    "bytes": 232133,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "mihile",
+    "name": "미하일",
+    "file": "mihile.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/5",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char5.jpg",
+    "bytes": 270861,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "blazewizard",
+    "name": "플레임위자드",
+    "file": "blazewizard.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/16",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char16.jpg",
+    "bytes": 412339,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "nightwalker",
+    "name": "나이트워커",
+    "file": "nightwalker.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/33",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char33.jpg",
+    "bytes": 103005,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "windarcher",
+    "name": "윈드브레이커",
+    "file": "windarcher.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/26",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char26.jpg",
+    "bytes": 235726,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "aran",
+    "name": "아란",
+    "file": "aran.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/9",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char9.jpg",
+    "bytes": 360782,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "thunderbreaker",
+    "name": "스트라이커",
+    "file": "thunderbreaker.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/42",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char42.jpg",
+    "bytes": 173822,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "evan",
+    "name": "에반",
+    "file": "evan.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/18",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char18.jpg",
+    "bytes": 158815,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "luminous",
+    "name": "루미너스",
+    "file": "luminous.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/19",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char19.jpg",
+    "bytes": 160827,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "mercedes",
+    "name": "메르세데스",
+    "file": "mercedes.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/28",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char28.jpg",
+    "bytes": 166912,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "phantom",
+    "name": "팬텀",
+    "file": "phantom.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/35",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char35.jpg",
+    "bytes": 172151,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "shade",
+    "name": "은월",
+    "file": "shade.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/45",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char45.jpg",
+    "bytes": 306101,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "demonslayer",
+    "name": "데몬슬레이어",
+    "file": "demonslayer.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/7",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char7.jpg",
+    "bytes": 199534,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "demonavenger",
+    "name": "데몬어벤져",
+    "file": "demonavenger.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/8",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char8.jpg",
+    "bytes": 228478,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "battlemage",
+    "name": "배틀메이지",
+    "file": "battlemage.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/17",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char17.jpg",
+    "bytes": 132216,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "blaster",
+    "name": "블래스터",
+    "file": "blaster.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/6",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char6.jpg",
+    "bytes": 178585,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "wildhunter",
+    "name": "와일드헌터",
+    "file": "wildhunter.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/27",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char27.jpg",
+    "bytes": 324819,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "mechanic",
+    "name": "메카닉",
+    "file": "mechanic.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/43",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char43.jpg",
+    "bytes": 125670,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "kaiser",
+    "name": "카이저",
+    "file": "kaiser.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/10",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char10.jpg",
+    "bytes": 163030,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "xenon",
+    "name": "제논",
+    "file": "xenon.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/34",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char34.jpg",
+    "bytes": 204288,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "kain",
+    "name": "카인",
+    "file": "kain.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/29",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char29.jpg",
+    "bytes": 76471,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "cadena",
+    "name": "카데나",
+    "file": "cadena.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/36",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char36.jpg",
+    "bytes": 103991,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "angelicbuster",
+    "name": "엔젤릭버스터",
+    "file": "angelicbuster.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/46",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char46.jpg",
+    "bytes": 359795,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "adele",
+    "name": "아델",
+    "file": "adele.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/11",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char11.jpg",
+    "bytes": 287370,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "illium",
+    "name": "일리움",
+    "file": "illium.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/20",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char20.jpg",
+    "bytes": 94601,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "khali",
+    "name": "칼리",
+    "file": "khali.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/37",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char37.jpg",
+    "bytes": 150149,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "ark",
+    "name": "아크",
+    "file": "ark.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/47",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char47.jpg",
+    "bytes": 103843,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "lara",
+    "name": "라라",
+    "file": "lara.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/21",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char21.jpg",
+    "bytes": 153604,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "hoyoung",
+    "name": "호영",
+    "file": "hoyoung.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/38",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char38.jpg",
+    "bytes": 149735,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "lete",
+    "name": "레테",
+    "file": "lete.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/49",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char49.jpg",
+    "bytes": 206797,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "ren",
+    "name": "렌",
+    "file": "ren.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/48",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char48.jpg",
+    "bytes": 237739,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "zero",
+    "name": "제로",
+    "file": "zero.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/12",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char12.jpg",
+    "bytes": 174185,
+    "copyright": "NEXON / Wizet"
+  },
+  {
+    "job": "kinesis",
+    "name": "키네시스",
+    "file": "kinesis.jpg",
+    "sourcePage": "https://maplestory.nexon.com/Guide/N23Job/View/22",
+    "sourceImage": "https://lwi.nexon.com/maplestory/guide/char_info/char_view/char22.jpg",
+    "bytes": 176893,
+    "copyright": "NEXON / Wizet"
+  }
+]

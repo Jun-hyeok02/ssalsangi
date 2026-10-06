@@ -1,0 +1,20 @@
+{
+  "source": "https://everymaple.com/character/강은호/equipment",
+  "method": "Exact item name from image alt text, original Nexon Open API icon URL",
+  "icons": {
+    "루즈 컨트롤 머신 마크": "https://open.api.nexon.com/static/maplestory/item/icon/KEPDJBND",
+    "마력이 깃든 안대": "https://open.api.nexon.com/static/maplestory/item/icon/KEPAJFJJ",
+    "커맨더 포스 이어링": "https://open.api.nexon.com/static/maplestory/item/icon/KEPBJEPH",
+    "몽환의 벨트": "https://open.api.nexon.com/static/maplestory/item/icon/KEOBJEOJ",
+    "고통의 근원": "https://open.api.nexon.com/static/maplestory/item/icon/KEOAJDNB",
+    "죽음의 맹세": "https://open.api.nexon.com/static/maplestory/item/icon/KEOAJDKG",
+    "리스트레인트 링 4레벨": "https://open.api.nexon.com/static/maplestory/item/icon/KEODIHHJ",
+    "컨티뉴어스 링 4레벨": "https://open.api.nexon.com/static/maplestory/item/icon/KEODIEMI",
+    "거대한 공포": "https://open.api.nexon.com/static/maplestory/item/icon/KEODIEOH",
+    "황홀한 악몽": "https://open.api.nexon.com/static/maplestory/item/icon/KEODIEIB",
+    "근원의 속삭임": "https://open.api.nexon.com/static/maplestory/item/icon/KEODIEKA",
+    "불멸의 유산": "https://open.api.nexon.com/static/maplestory/item/icon/KEOGIDJA",
+    "창세의 뱃지": "https://open.api.nexon.com/static/maplestory/item/icon/KEOKJFGE",
+    "컴플리트 언더컨트롤": "https://open.api.nexon.com/static/maplestory/item/icon/KEJFJHHE"
+  }
+}

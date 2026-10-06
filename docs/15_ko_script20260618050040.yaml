@@ -1,0 +1,859 @@
+openapi: 3.0.3
+info:
+  title: 메이플스토리 API
+  version: 1.0.0
+  contact:
+    name: help_openapi@nexon.co.kr
+  description: |-
+    - 메이플스토리 게임 데이터는 평균 15분 후 확인 가능합니다.
+    - 과거 데이터는 원하는 일자를 입력해 조회할 수 있으며, 전일 데이터는 다음날 오전 2시부터 확인할 수 있습니다. (12월 22일 데이터 조회 시, 22일 00시부터 23일 00시 사이 데이터가 조회 됩니다.)
+    - 게임 콘텐츠 변경으로 ocid가 변경될 수 있습니다. ocid 기반 서비스 갱신 시 유의해 주시길 바랍니다.
+    - 해당 API는 메이플스토리 한국의 데이터가 제공됩니다.
+servers:
+  - url: 'https://open.api.nexon.com'
+tags:
+  - name: Union
+    description: 유니온 정보 조회
+
+paths:
+  /maplestory/v1/user/union:
+    get:
+      tags:
+        - Union
+      summary: 유니온 정보 조회
+      description: 유니온 레벨 및 유니온 등급 정보를 조회합니다.
+        <br>2023년 12월 21일 데이터부터 조회할 수 있습니다.
+      operationId: maplestory_get_union
+      parameters:
+        - name: x-nxopen-api-key
+          in: header
+          description: API KEY
+          required: true
+          schema:
+            type: string
+        - name: ocid
+          in: query
+          description: 캐릭터 식별자
+          required: true
+          schema:
+            type: string
+        - name: date
+          in: query
+          description: 조회 기준일 (KST, YYYY-MM-DD)
+          schema:
+            type: string
+
+      responses:
+        '200':
+          description: SUCCESS
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Union'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '429':
+          description: Too Many Requests
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+
+  /maplestory/v1/user/union-raider:
+    get:
+      tags:
+        - Union
+      summary: 유니온 공격대 정보 조회
+      description: 유니온에 배치된 공격대원 효과 및 공격대 점령 효과 등 상세 정보를 조회합니다.
+        <br>2023년 12월 21일 데이터부터 조회할 수 있습니다.
+      operationId: maplestory_get_union_raider
+      parameters:
+        - name: x-nxopen-api-key
+          in: header
+          description: API KEY
+          required: true
+          schema:
+            type: string
+        - name: ocid
+          in: query
+          description: 캐릭터 식별자
+          required: true
+          schema:
+            type: string
+        - name: date
+          in: query
+          description: 조회 기준일 (KST, YYYY-MM-DD)
+          schema:
+            type: string
+
+      responses:
+        '200':
+          description: SUCCESS
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnionRaider'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '429':
+          description: Too Many Requests
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+
+  /maplestory/v1/user/union-artifact:
+    get:
+      tags:
+        - Union
+      summary: 유니온 아티팩트 정보 조회
+      description: 유니온 아티팩트 정보를 조회합니다.
+        <br>2024년 01월 18일 데이터부터 조회할 수 있습니다.
+      operationId: maplestory_get_union_artifact
+      parameters:
+        - name: x-nxopen-api-key
+          in: header
+          description: API KEY
+          required: true
+          schema:
+            type: string
+        - name: ocid
+          in: query
+          description: 캐릭터 식별자
+          required: true
+          schema:
+            type: string
+        - name: date
+          in: query
+          description: 조회 기준일 (KST, YYYY-MM-DD)
+          schema:
+            type: string
+      responses:
+        '200':
+          description: SUCCESS
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnionArtifact'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '429':
+          description: Too Many Requests
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+  /maplestory/v1/user/union-champion:
+    get:
+      tags:
+        - Union
+      summary: 유니온 챔피언 정보 조회
+      description: |-
+        유니온 챔피언 정보를 조회합니다.
+        <br>2025년 02월 20일 데이터부터 조회할 수 있습니다.
+      operationId: maplestory_get_union_champion
+      parameters:
+        - name: x-nxopen-api-key
+          in: header
+          description: API KEY
+          required: true
+          schema:
+            type: string
+        - name: ocid
+          in: query
+          description: 캐릭터 식별자
+          required: true
+          schema:
+            type: string
+        - name: date
+          in: query
+          description: 조회 기준일 (KST, YYYY-MM-DD)
+          schema:
+            type: string
+      responses:
+        '200':
+          description: SUCCESS
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnionChampion'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '429':
+          description: Too Many Requests
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+components:
+  schemas:
+    Union:
+      type: object
+      properties:
+        date:
+          type: string
+          description: 조회 기준일 (KST, 일 단위 데이터로 시, 분은 일괄 0으로 표기)
+          example: "2023-12-21T00:00+09:00"
+        union_level:
+          type: number
+          format: int64
+          description: 유니온 레벨
+        union_grade:
+          type: string
+          description: 유니온 등급
+        union_artifact_level:
+          type: number
+          format: int64
+          description: 아티팩트 레벨 
+        union_artifact_exp:
+          type: number
+          format: int64
+          description: 보유 아티팩트 경험치  
+        union_artifact_point:
+          type: number
+          format: int64
+          description: 보유 아티팩트 포인트  
+    UnionRaider:
+      type: object
+      properties:
+        date:
+          type: string
+          description: 조회 기준일 (KST, 일 단위 데이터로 시, 분은 일괄 0으로 표기)
+          example: "2023-12-21T00:00+09:00"
+        union_raider_stat:
+          type: array
+          description: 유니온 공격대원 효과
+          items:
+            type: string
+        union_state_stat:
+          type: array
+          description: 적용 중인 유니온 스탯 효과
+          items:
+            type: string
+        union_state_stat_preset:
+          type: array
+          description: 프리셋 별 유니온 스탯 효과
+          items:
+            type: object
+            properties:
+              preset_no:
+                type: integer
+                format: int64
+                description: 프리셋 번호
+              union_state_stat:
+                type: array
+                description: 유니온 스탯 효과
+                items:
+                  type: string
+        union_max_point:
+          type: integer
+          format: int64
+          description: 총 유니온 포인트
+        union_occupied_stat:
+          type: array
+          description: 유니온 공격대 점령 효과
+          items:
+            type: string
+        union_inner_stat:
+          type: array
+          description: 유니온 공격대 배치
+          items:
+            type: object
+            properties:
+              stat_field_id:
+                type: string
+                description: 공격대 배치 위치 (11시 방향부터 시계 방향 순서대로 0~7)
+              stat_field_effect:
+                type: string
+                description: 해당 지역 점령 효과
+        union_block:
+          type: array
+          description: 유니온 블록 정보
+          items:
+            type: object
+            properties:
+              block_type:
+                type: string
+                description: 블록 모양 (전사, 마법사, 궁수, 도적, 해적, 메이플m, 하이브리드)
+              block_class:
+                type: string
+                description: 블록 해당 캐릭터 직업
+              block_level:
+                type: string
+                description: 블록 해당 캐릭터 레벨
+              block_control_point:
+                type: object
+                description: |
+                  블록 기준점 좌표
+                  - 중앙 4칸 중 오른쪽 아래 칸이 x : 0, y : 0 포지션
+                  - 좌측으로 1칸씩 이동하면 x가 1씩 감소
+                  - 우측으로 1칸씩 이동하면 x가 1씩 증가
+                  - 아래로 1칸씩 이동하면 y가 1씩 감소
+                  - 위로 1칸씩 이동하면 y가 1씩 증가
+                properties:
+                  x:
+                    type: number
+                    format: int64
+                    description: 블록 기준점 X좌표
+                  y:
+                    type: number
+                    format: int64
+                    description: 블록 기준점 Y좌표
+              block_position:
+                type: array
+                description: 블록이 차지하고 있는 영역 좌표들 (null:미 배치 시)
+                items:
+                  type: object
+                  properties:
+                    x:
+                      type: number
+                      format: int64
+                      description: 블록 X좌표
+                    y:
+                      type: number
+                      format: int64
+                      description: 블록 Y좌표
+        use_preset_no:
+          type: number
+          format: int64
+          description: 적용 중인 프리셋 번호
+        union_raider_preset_1:
+          type: object
+          description: 유니온 프리셋 1번 정보
+          properties:
+            union_raider_stat:
+              type: array
+              description: 유니온 공격대원 효과
+              items:
+                type: string
+            union_occupied_stat:
+              type: array
+              description: 유니온 공격대 점령 효과
+              items:
+                type: string
+            union_inner_stat:
+              type: array
+              description: 유니온 공격대 배치
+              items:
+                type: object
+                properties:
+                  stat_field_id:
+                    type: string
+                    description: 공격대 배치 위치 (11시 방향부터 시계 방향 순서대로 0~7)
+                  stat_field_effect:
+                    type: string
+                    description: 해당 지역 점령 효과
+            union_block:
+              type: array
+              description: 유니온 블록 정보
+              items:
+                type: object
+                properties:
+                  block_type:
+                    type: string
+                    description: 블록 모양 (전사, 마법사, 궁수, 도적, 해적, 메이플m, 하이브리드)
+                  block_class:
+                    type: string
+                    description: 블록 해당 캐릭터 직업
+                  block_level:
+                    type: string
+                    description: 블록 해당 캐릭터 레벨
+                  block_control_point:
+                    type: object
+                    description: |
+                      블록 기준점 좌표
+                      - 중앙 4칸 중 오른쪽 아래 칸이 x : 0, y : 0 포지션
+                      - 좌측으로 1칸씩 이동하면 x가 1씩 감소
+                      - 우측으로 1칸씩 이동하면 x가 1씩 증가
+                      - 아래로 1칸씩 이동하면 y가 1씩 감소
+                      - 위로 1칸씩 이동하면 y가 1씩 증가
+                    properties:
+                      x:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 X좌표
+                      y:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 Y좌표
+                  block_position:
+                    type: array
+                    description: 블록이 차지하고 있는 영역 좌표들 (null:미 배치 시)
+                    items:
+                      type: object
+                      properties:
+                        x:
+                          type: number
+                          format: int64
+                          description: 블록 X좌표
+                        y:
+                          type: number
+                          format: int64
+                          description: 블록 Y좌표
+        union_raider_preset_2:
+          type: object
+          description: 유니온 프리셋 2번 정보
+          properties:
+            union_raider_stat:
+              type: array
+              description: 유니온 공격대원 효과
+              items:
+                type: string
+            union_occupied_stat:
+              type: array
+              description: 유니온 공격대 점령 효과
+              items:
+                type: string
+            union_inner_stat:
+              type: array
+              description: 유니온 공격대 배치
+              items:
+                type: object
+                properties:
+                  stat_field_id:
+                    type: string
+                    description: 공격대 배치 위치 (11시 방향부터 시계 방향 순서대로 0~7)
+                  stat_field_effect:
+                    type: string
+                    description: 해당 지역 점령 효과
+            union_block:
+              type: array
+              description: 유니온 블록 정보
+              items:
+                type: object
+                properties:
+                  block_type:
+                    type: string
+                    description: 블록 모양 (전사, 마법사, 궁수, 도적, 해적, 메이플m, 하이브리드)
+                  block_class:
+                    type: string
+                    description: 블록 해당 캐릭터 직업
+                  block_level:
+                    type: string
+                    description: 블록 해당 캐릭터 레벨
+                  block_control_point:
+                    type: object
+                    description: |
+                      블록 기준점 좌표
+                      - 중앙 4칸 중 오른쪽 아래 칸이 x : 0, y : 0 포지션
+                      - 좌측으로 1칸씩 이동하면 x가 1씩 감소
+                      - 우측으로 1칸씩 이동하면 x가 1씩 증가
+                      - 아래로 1칸씩 이동하면 y가 1씩 감소
+                      - 위로 1칸씩 이동하면 y가 1씩 증가
+                    properties:
+                      x:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 X좌표
+                      y:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 Y좌표
+                  block_position:
+                    type: array
+                    description: 블록이 차지하고 있는 영역 좌표들 (null:미 배치 시)
+                    items:
+                      type: object
+                      properties:
+                        x:
+                          type: number
+                          format: int64
+                          description: 블록 X좌표
+                        y:
+                          type: number
+                          format: int64
+                          description: 블록 Y좌표
+        union_raider_preset_3:
+          type: object
+          description: 유니온 프리셋 3번 정보
+          properties:
+            union_raider_stat:
+              type: array
+              description: 유니온 공격대원 효과
+              items:
+                type: string
+            union_occupied_stat:
+              type: array
+              description: 유니온 공격대 점령 효과
+              items:
+                type: string
+            union_inner_stat:
+              type: array
+              description: 유니온 공격대 배치
+              items:
+                type: object
+                properties:
+                  stat_field_id:
+                    type: string
+                    description: 공격대 배치 위치 (11시 방향부터 시계 방향 순서대로 0~7)
+                  stat_field_effect:
+                    type: string
+                    description: 해당 지역 점령 효과
+            union_block:
+              type: array
+              description: 유니온 블록 정보
+              items:
+                type: object
+                properties:
+                  block_type:
+                    type: string
+                    description: 블록 모양 (전사, 마법사, 궁수, 도적, 해적, 메이플m, 하이브리드)
+                  block_class:
+                    type: string
+                    description: 블록 해당 캐릭터 직업
+                  block_level:
+                    type: string
+                    description: 블록 해당 캐릭터 레벨
+                  block_control_point:
+                    type: object
+                    description: |
+                      블록 기준점 좌표
+                      - 중앙 4칸 중 오른쪽 아래 칸이 x : 0, y : 0 포지션
+                      - 좌측으로 1칸씩 이동하면 x가 1씩 감소
+                      - 우측으로 1칸씩 이동하면 x가 1씩 증가
+                      - 아래로 1칸씩 이동하면 y가 1씩 감소
+                      - 위로 1칸씩 이동하면 y가 1씩 증가
+                    properties:
+                      x:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 X좌표
+                      y:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 Y좌표
+                  block_position:
+                    type: array
+                    description: 블록이 차지하고 있는 영역 좌표들 (null:미 배치 시)
+                    items:
+                      type: object
+                      properties:
+                        x:
+                          type: number
+                          format: int64
+                          description: 블록 X좌표
+                        y:
+                          type: number
+                          format: int64
+                          description: 블록 Y좌표
+        union_raider_preset_4:
+          type: object
+          description: 유니온 프리셋 4번 정보
+          properties:
+            union_raider_stat:
+              type: array
+              description: 유니온 공격대원 효과
+              items:
+                type: string
+            union_occupied_stat:
+              type: array
+              description: 유니온 공격대 점령 효과
+              items:
+                type: string
+            union_inner_stat:
+              type: array
+              description: 유니온 공격대 배치
+              items:
+                type: object
+                properties:
+                  stat_field_id:
+                    type: string
+                    description: 공격대 배치 위치 (11시 방향부터 시계 방향 순서대로 0~7)
+                  stat_field_effect:
+                    type: string
+                    description: 해당 지역 점령 효과
+            union_block:
+              type: array
+              description: 유니온 블록 정보
+              items:
+                type: object
+                properties:
+                  block_type:
+                    type: string
+                    description: 블록 모양 (전사, 마법사, 궁수, 도적, 해적, 메이플m, 하이브리드)
+                  block_class:
+                    type: string
+                    description: 블록 해당 캐릭터 직업
+                  block_level:
+                    type: string
+                    description: 블록 해당 캐릭터 레벨
+                  block_control_point:
+                    type: object
+                    description: |
+                      블록 기준점 좌표
+                      - 중앙 4칸 중 오른쪽 아래 칸이 x : 0, y : 0 포지션
+                      - 좌측으로 1칸씩 이동하면 x가 1씩 감소
+                      - 우측으로 1칸씩 이동하면 x가 1씩 증가
+                      - 아래로 1칸씩 이동하면 y가 1씩 감소
+                      - 위로 1칸씩 이동하면 y가 1씩 증가
+                    properties:
+                      x:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 X좌표
+                      y:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 Y좌표
+                  block_position:
+                    type: array
+                    description: 블록이 차지하고 있는 영역 좌표들 (null:미 배치 시)
+                    items:
+                      type: object
+                      properties:
+                        x:
+                          type: number
+                          format: int64
+                          description: 블록 X좌표
+                        y:
+                          type: number
+                          format: int64
+                          description: 블록 Y좌표
+        union_raider_preset_5:
+          type: object
+          description: 유니온 프리셋 5번 정보
+          properties:
+            union_raider_stat:
+              type: array
+              description: 유니온 공격대원 효과
+              items:
+                type: string
+            union_occupied_stat:
+              type: array
+              description: 유니온 공격대 점령 효과
+              items:
+                type: string
+            union_inner_stat:
+              type: array
+              description: 유니온 공격대 배치
+              items:
+                type: object
+                properties:
+                  stat_field_id:
+                    type: string
+                    description: 공격대 배치 위치 (11시 방향부터 시계 방향 순서대로 0~7)
+                  stat_field_effect:
+                    type: string
+                    description: 해당 지역 점령 효과
+            union_block:
+              type: array
+              description: 유니온 블록 정보
+              items:
+                type: object
+                properties:
+                  block_type:
+                    type: string
+                    description: 블록 모양 (전사, 마법사, 궁수, 도적, 해적, 메이플m, 하이브리드)
+                  block_class:
+                    type: string
+                    description: 블록 해당 캐릭터 직업
+                  block_level:
+                    type: string
+                    description: 블록 해당 캐릭터 레벨
+                  block_control_point:
+                    type: object
+                    description: |
+                      블록 기준점 좌표
+                      - 중앙 4칸 중 오른쪽 아래 칸이 x : 0, y : 0 포지션
+                      - 좌측으로 1칸씩 이동하면 x가 1씩 감소
+                      - 우측으로 1칸씩 이동하면 x가 1씩 증가
+                      - 아래로 1칸씩 이동하면 y가 1씩 감소
+                      - 위로 1칸씩 이동하면 y가 1씩 증가
+                    properties:
+                      x:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 X좌표
+                      y:
+                        type: number
+                        format: int64
+                        description: 블록 기준점 Y좌표
+                  block_position:
+                    type: array
+                    description: 블록이 차지하고 있는 영역 좌표들 (null:미 배치 시)
+                    items:
+                      type: object
+                      properties:
+                        x:
+                          type: number
+                          format: int64
+                          description: 블록 X좌표
+                        y:
+                          type: number
+                          format: int64
+                          description: 블록 Y좌표
+
+
+    UnionArtifact:
+      type: object
+      properties:
+        date:
+          type: string
+          description: 조회 기준일 (KST, 일 단위 데이터로 시, 분은 일괄 0으로 표기)
+          example: "2023-12-21T00:00+09:00"
+        union_artifact_effect:
+          type: array
+          description: 아티팩트 효과 정보
+          items:
+            type: object
+            properties: 
+              name:
+                type: string
+                description: 아티팩트 효과 명 
+              level:
+                type: number
+                format: int64
+                description: 아티팩트 효과 레벨 
+        union_artifact_crystal:
+          type: array
+          description: 아티팩트 크리스탈 정보
+          items:
+            type: object
+            properties: 
+              name: 
+                type: string
+                description: 아티팩트 크리스탈 명 
+              validity_flag:
+                type: string
+                description: 능력치 유효 여부 (0:유효, 1:유효하지 않음)
+              date_expire:
+                type: string
+                description: 능력치 유효 기간 (expired:만료, null:무제한) (KST)
+                example: "2023-12-21T17:28+09:00"
+              level:
+                type: number
+                format: int64
+                description: 아티팩트 크리스탈 등급
+              crystal_option_name_1: 
+                type: string
+                description: 아티팩트 크리스탈 첫 번째 옵션 명
+              crystal_option_name_2: 
+                type: string
+                description: 아티팩트 크리스탈 두 번째 옵션 명              
+              crystal_option_name_3: 
+                type: string
+                description: 아티팩트 크리스탈 세 번째 옵션 명  
+        union_artifact_remain_ap:
+          type: number
+          format: int64
+          description: 잔여 아티팩트 AP
+    UnionChampion:
+      type: object
+      properties:
+        date:
+          type: string
+          description: 조회 기준일 (KST, 일 단위 데이터로 시, 분은 일괄 0으로 표기)
+          example: "2023-12-21T00:00+09:00"
+        union_champion:
+          type: array
+          description: 유니온 챔피언 정보
+          items:
+            type: object
+            properties:
+              champion_name:
+                type: string
+                description: 유니온 챔피언 캐릭터 명
+              champion_slot:
+                type: number
+                format: int64
+                description: 유니온 챔피언 슬롯
+              champion_grade:
+                type: string
+                description: 유니온 챔피언 등급
+              champion_class:
+                type: string
+                description: 유니온 챔피언 캐릭터의 직업
+              champion_badge_info:
+                type: array
+                description: 유니온 챔피언 휘장 정보
+                items:
+                  type: object
+                  properties:
+                    stat:
+                      type: string
+                      description: 유니온 챔피언 휘장 정보
+        champion_badge_total_info:
+          type: array
+          description: 챔피언 휘장 효과
+          items:
+            type: object
+            properties:
+              stat:
+                type: string
+                description: 유니온 챔피언 휘장 효과
+    ErrorMessage:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            name:
+              type: string
+              description: 에러 명
+            message:
+              type: string
+              description: 에러 설명

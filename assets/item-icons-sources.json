@@ -1,0 +1,141 @@
+{
+  "assets": [
+    {
+      "contentType": "image/png",
+      "id": "c5d175d9c0bf0b22",
+      "kind": "image",
+      "name": "%EB%8D%B0%EB%AF%B8%EC%95%88.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/c5d175d9c0bf0b22.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/ef441b5e8bc04c12a73d9520a5430b28/%EB%8D%B0%EB%AF%B8%EC%95%88.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "568dc924e14e7661",
+      "kind": "image",
+      "name": "%EC%8A%A4%EC%9A%B0.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/568dc924e14e7661.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/305713f431ee461893fbb53385f2087a/%EC%8A%A4%EC%9A%B0.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "143051571fb59330",
+      "kind": "image",
+      "name": "%EB%A3%A8%EC%8B%9C%EB%93%9C.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/143051571fb59330.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260318/a3792f39f6034827ad31713d52dabeec/%EB%A3%A8%EC%8B%9C%EB%93%9C.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "7243260b9a92dfd1",
+      "kind": "image",
+      "name": "%EC%9C%8C.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/7243260b9a92dfd1.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260318/bc0c4fa8038d4827b93472cc1a905c46/%EC%9C%8C.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "b1f8bda314d45b2d",
+      "kind": "image",
+      "name": "%EB%8D%94%EC%8A%A4%ED%81%AC.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/b1f8bda314d45b2d.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260318/a97ca62bd91440f49972584f4be38769/%EB%8D%94%EC%8A%A4%ED%81%AC.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "ad377f3e3c318b81",
+      "kind": "image",
+      "name": "%EC%A7%84%ED%9E%90%EB%9D%BC.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/ad377f3e3c318b81.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260318/ebece778aa474262b2809dd860ccd3aa/%EC%A7%84%ED%9E%90%EB%9D%BC.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "7e034cc026f49eef",
+      "kind": "image",
+      "name": "%EB%93%84%EC%BC%88.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/7e034cc026f49eef.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260318/cb23ddb316904da3ab93405a4667f097/%EB%93%84%EC%BC%88.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "854c020fa2b97fdd",
+      "kind": "image",
+      "name": "%EA%B2%80%EC%9D%80%EB%A7%88%EB%B2%95%EC%82%AC.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/854c020fa2b97fdd.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/d26a2eb372574f40a21bb05f13fd71c3/%EA%B2%80%EC%9D%80%EB%A7%88%EB%B2%95%EC%82%AC.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "65d8c5d8a9e3ac36",
+      "kind": "image",
+      "name": "%EC%84%A0%ED%83%9D%EB%B0%9B%EC%9D%80%EC%84%B8%EB%A0%8C.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/65d8c5d8a9e3ac36.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/9d4264ecdee243d181033728cb81e969/%EC%84%A0%ED%83%9D%EB%B0%9B%EC%9D%80%EC%84%B8%EB%A0%8C.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "b01d456d6ca46a31",
+      "kind": "image",
+      "name": "%EC%B5%9C%EC%B4%88%EC%9D%98%20%EB%8C%80%EC%A0%81%EC%9E%90.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/b01d456d6ca46a31.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/c424d9562aa54969bc4cd9707055bfdd/%EC%B5%9C%EC%B4%88%EC%9D%98%20%EB%8C%80%EC%A0%81%EC%9E%90.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "0cc49a5b4da1774c",
+      "kind": "image",
+      "name": "%EA%B0%90%EC%8B%9C%EC%9E%90%20%EC%B9%BC%EB%A1%9C%EC%8A%A4.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/0cc49a5b4da1774c.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/ae0085855ecb483f80cddc7112325955/%EA%B0%90%EC%8B%9C%EC%9E%90%20%EC%B9%BC%EB%A1%9C%EC%8A%A4.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "19bb206f401f2ad5",
+      "kind": "image",
+      "name": "%EB%B2%A8%EB%A1%9C%EB%82%98.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/19bb206f401f2ad5.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/9e9cbff55e2c4dddbf773217a2ca8712/%EB%B2%A8%EB%A1%9C%EB%82%98.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "b018af4cea867cd3",
+      "kind": "image",
+      "name": "%EC%B0%AC%EB%9E%80%ED%95%9C%20%ED%9D%89%EC%84%B1.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/b018af4cea867cd3.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/fa5ef34a976b453aa0d3235947a44393/%EC%B0%AC%EB%9E%80%ED%95%9C%20%ED%9D%89%EC%84%B1.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "53fc53bb9765cfb2",
+      "kind": "image",
+      "name": "%EB%A6%BC%EB%B3%B4.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/53fc53bb9765cfb2.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/afc4999fd86f410da48bfce096eaa3a2/%EB%A6%BC%EB%B3%B4.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "ff016e9da310997a",
+      "kind": "image",
+      "name": "%EC%B9%B4%EB%A7%81.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/ff016e9da310997a.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/dbe91dddf276442d9ee98a929d0252d7/%EC%B9%B4%EB%A7%81.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "15ee52f72365db6e",
+      "kind": "image",
+      "name": "%EB%B0%9C%EB%93%9C%EB%A6%AD%EC%8A%A4.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/15ee52f72365db6e.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/6cf12e108214420d95ce3b7fff91a312/%EB%B0%9C%EB%93%9C%EB%A6%AD%EC%8A%A4.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "656144a06299ee04",
+      "kind": "image",
+      "name": "%EC%9C%A0%ED%94%BC%ED%85%8C%EB%A5%B4.png",
+      "path": "C:\\Users\\qhak9\\AppData\\Local\\Temp/browser-use/assets/7c4701d1-759c-45f7-bd40-84718d65ac74/656144a06299ee04.png",
+      "url": "https://dszw1qtcnsa5e.cloudfront.net/quickboard/20260915/99283e54a45d406681d7a35f01490be1/%EC%9C%A0%ED%94%BC%ED%85%8C%EB%A5%B4.png"
+    }
+  ],
+  "failures": []
+}
